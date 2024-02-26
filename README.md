@@ -13,4 +13,4 @@ with open('path_to_your_file.pkl', 'rb') as file:
 hyperparameters = data['hyperparameters']
 
 
-### Learning Curves are in the Variables Folder
+### Learning Curves are in the Folder
