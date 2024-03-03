@@ -1,4 +1,3 @@
-
 #To access the hyperparameters of the model, use code below:
 
 import pickle
