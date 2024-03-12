@@ -1,12 +1,8 @@
 # Access the hyperparameters
-
 ## For all models except ANN
-import pickle
+from joblib import load
 
-### Load the pickle file
-with open('path_to_your_file.pkl', 'rb') as file:
-    data = pickle.load(file)
+# Replace 'path_to_your_model.pkl' with the actual path to your saved model file
+model = load('path_to_your_model.pkl')
 
-hyperparameters = data['hyperparameters']
-
-## For ANN
+print(model.get_params())
