@@ -1,2 +1,13 @@
 #ANN Hyperparameters Selected after Keras Tuner Search
 
+Hyperparameters:
+num_layers: 2
+dropout_: 0.2
+learning_rate: 0.005
+units_1: 23
+activation: relu
+units_2: 19
+tuner/epochs: 2
+tuner/initial_epoch: 0
+tuner/bracket: 2
+tuner/round: 0
